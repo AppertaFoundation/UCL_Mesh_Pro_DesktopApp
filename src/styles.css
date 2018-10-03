@@ -1,0 +1,245 @@
+.login-text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 0;
+	-fx-border-color: null;
+	-fx-border-radius: 0;
+	-fx-select-on-focus:false;
+	-fx-background-radius: 0,0,0,0;
+	-fx-focus-color: transparent;
+}
+
+.login-box {
+-fx-background-color: radial-gradient(focus-distance 0% , center 50% 50% , radius 125% , #840317, #52020D);
+}
+
+.login-button {
+	-fx-background-color: #B74F5E;
+	-fx-background-insets: 0;
+	-fx-border-radius: 0;
+	-fx-background-radius: 0,0,0,0;
+}
+
+.login-label {
+-fx-background-color: #B74F5E;
+}
+
+.menubar {
+	-fx-alignment: center_left;
+	-fx-background-color: #FFFFFF;
+    -fx-background-insets: 0;
+	-fx-border-color: null;	
+}
+
+.menubar .container .menu:openvertically .label .text {
+	-fx-fill: #404041;
+	-fx-font: 16px Corbel;
+}
+
+.menubar .container .menu:hover .label .text {
+	-fx-fill: #FFFFFF;
+}
+
+.menubar .container .menu:hover {
+	-fx-fill: #FFFFFF;
+	-fx-background-color: #B7A261;
+}
+ 
+ .date-picker {
+	 -fx-background-insets: 0px;
+	 -fx-background-radius: 0px;
+	 -fx-background-color: #FFFFFF;
+	 -fx-font: 16px Corbel;
+	 -fx-border-insets: 0px;
+	 -fx-border-color: #B7A261;
+	 -fx-border-width: 1px;
+	 -fx-border-radius: 0px;
+	 -fx-highlight-fill: #B7A261;
+	 -fx-show-week-numbers: false;
+ }
+ 
+ .date-picker .arrow-button {
+	 -fx-background-insets: 0px;
+	 -fx-background-radius: 0px;
+	 -fx-background-color: #FFFFFF;
+ }
+ 
+  .date-picker .arrow-button .arrow {
+	 -fx-background-insets: 0px;
+	 -fx-background-radius: 0px;
+	 -fx-background-color: #B7A261;
+ }
+ 
+ 
+ .date-picker .date-picker-display-node {
+	 -fx-background-insets: 0px 0px 0px 0px 0px 0px 0px;
+	 -fx-background-color: #FFFFFF;
+	 -fx-font: 16px Corbel;
+	 -fx-border-insets: 0;
+ }
+ 
+ .date-picker .date-picker-popup {
+	-fx-border-insets: 0px;
+	-fx-border-color: #B7A261;
+	-fx-border-width: 1px;
+	-fx-border-radius: 0px;
+ }
+ 
+ .date-picker .date-picker-popup .month-year-pane {
+	-fx-background-color: #EEEEEE;
+ }
+ 
+  .date-picker .date-picker-popup .calendar-grid .day-name-cell {
+	-fx-background-color: #B7A261;
+	-fx-fill: #EEEEEE;
+}
+ 
+ .date-picker .date-picker-popup .calendar-grid .day-name-cell .text {
+	-fx-fill: white;
+}
+
+.date-picker .date-picker-popup .calendar-grid .date-cell:hover {
+	 -fx-background-color:#B7A261;
+}
+
+.date-picker-popup > * > .spinner > .button {
+    -fx-background-color: null;
+    -fx-color: transparent;
+    -fx-background-radius: 0;
+	-fx-border-width: 0px;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px; 
+	-fx-border-insets: 0px;
+}
+
+.combo-box-base { 
+	-fx-font: 16px Corbel;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px;
+	-fx-background-color:#FFFFFF; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #B7A261;
+	-fx-border-width: 1px;
+	-fx-border-radius: 0px;
+}
+
+.combo-box-base .arrow-button .arrow {
+	-fx-background-color:#B7A261;
+}
+
+.combo-box-base .list-view {
+	-fx-font: 16px Corbel;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px;
+	-fx-background-color:#FFFFFF; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #B7A261;
+	-fx-border-width: 1px;
+	-fx-border-radius: 0px;
+}
+
+.button { 
+	-fx-font: 16px Corbel;
+	-fx-background-color: #D9DADB;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #B7A261;
+	-fx-border-width: 0px 0px 2px 0px;
+	-fx-border-radius: 0px;
+}
+
+.button:hover {
+	-fx-background-color:#B7A261;
+	-fx-fill: white;
+}
+
+.button:hover .text {
+	-fx-fill: white;
+}
+
+.scroll-pane>*.viewpoint {
+	-fx-region-background: #F9F9F9;  
+	-fx-background-color: #F9F9F9;
+}
+
+.root {
+	-fx-base: #F9F9F9;
+}
+
+.mainlabel {
+	-fx-padding: 0px 10px 0px 10px;
+	-fx-border-width: 0px 3px 0px 3px;
+	-fx-border-color: #B7A261;	
+}
+
+.mainlabel .text {
+	-fx-fill: #B7A261;	
+}
+
+.carouselbuttonleft {
+	-fx-font: 16px Corbel;
+	-fx-background-color: #D9DADB;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #B7A261;
+	-fx-border-width: 0px 0px 0px 5px;
+	-fx-border-radius: 0px;	
+}
+
+.carouselbuttonleft:hover {
+	-fx-font: 16px Corbel;
+	-fx-background-color: #B7A261;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #D9DADB;
+	-fx-border-width: 0px 0px 0px 5px;
+	-fx-border-radius: 0px;	
+}
+
+.carouselbuttonright {
+	-fx-font: 16px Corbel;
+	-fx-background-color: #D9DADB;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #B7A261;
+	-fx-border-width: 0px 5px 0px 0px;
+	-fx-border-radius: 0px;	
+}
+
+.carouselbuttonright:hover {
+	-fx-font: 16px Corbel;
+	-fx-background-color: #B7A261;
+	-fx-background-insets: 0px;
+	-fx-background-radius: 0px; 
+	-fx-border-insets: 0px;
+	-fx-border-color: #D9DADB;
+	-fx-border-width: 0px 5px 0px 0px;
+	-fx-border-radius: 0px;	
+}
+
+.form-text-field .text {
+	-fx-font: 16px Corbel;
+}
+
+.form-text-field {
+	 -fx-background-insets: 0px;
+	 -fx-background-radius: 0px;
+	 -fx-background-color: #FFFFFF;
+	 -fx-font: 16px Corbel;
+	 -fx-border-insets: 0px;
+	 -fx-border-color: #B7A261;
+	 -fx-border-width: 1px;
+	 -fx-border-radius: 0px;
+}
+
+.radio-button .radio .dot {
+	-fx-background-color: #CFD0D1;
+}
+
+.radio-button:selected > .radio > .dot{
+	-fx-background-color: #B7A261;
+}
+

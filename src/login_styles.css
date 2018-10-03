@@ -1,0 +1,37 @@
+.login-text-field {
+    -fx-background-color: #FFFFFF;
+    -fx-background-insets: 0;
+	-fx-border-color: null;
+	-fx-border-radius: 0;
+	-fx-select-on-focus:false;
+	-fx-background-radius: 0,0,0,0;
+	-fx-focus-color: transparent;
+}
+
+.login-box {
+-fx-background-color: radial-gradient(focus-distance 0% , center 50% 50% , radius 125% , #840317, #52020D);
+}
+
+.login-button {
+	-fx-background-color: #B74F5E;
+	-fx-background-insets: 0;
+	-fx-border-radius: 0;
+	-fx-background-radius: 0,0,0,0;
+}
+
+.login-label {
+-fx-background-color: #B74F5E;
+}
+
+.login-button:hover {
+	-fx-background-color: #47020C;
+	-fx-background-insets: 0;
+	-fx-border-radius: 0;
+	-fx-background-radius: 0,0,0,0;
+}
+
+.loginlabelicon {
+  -fx-background-color: #B74F5E;
+ /*  -fx-graphic: url('C:\Users\daian\Desktop\lock.png'); */
+ 
+}
