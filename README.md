@@ -5,6 +5,11 @@ Made in collaboration with Great Ormond Street Hospital, NHS ‘Digital Research
 
 Video Demonstration here: https://youtu.be/1UDwQpKwpLY
 
+## Authors 
+This project was developed by UCL Computer Science students as part of the UCL Industry Exchange Network (http://ixn.org.uk) which pairs university students with industry as part of their curriculum.
+Inventor and project lead - Dr Dean Mohamedally, d.mohamedally@ucl.ac.uk
+MSc Student - Dr Caroline Smith
+
 ## Pre-requisites & Development tool
 •	Java SE Development Kit:  1.8.0_171 <br>
 •	Blender v2.79b
